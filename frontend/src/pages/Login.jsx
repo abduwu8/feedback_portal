@@ -35,11 +35,6 @@ function Login() {
             DCInfoTech
             <span className="block text-2xl font-normal mt-2">Feedback Portal</span>
           </h1>
-          <img 
-            src="/feedback-illustration.svg" 
-            alt="Feedback" 
-            className="max-w-md mx-auto invert"
-          />
         </div>
       </div>
 
