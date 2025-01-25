@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import path from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -56,6 +57,29 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ message: 'Something went wrong!' });
 });
+
+// Add these imports at the top
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// Add this after your routes
+if (process.env.NODE_ENV === 'production') {
+  // Serve frontend build files
+  app.use(express.static(join(__dirname, '../frontend/dist')));
+
+  // Handle all other routes by serving the index.html
+  app.get('*', (req, res) => {
+    res.sendFile(join(__dirname, '../frontend/dist/index.html'));
+  });
+} else {
+  app.get('/', (req, res) => {
+    res.send('API is running....');
+  });
+}
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
