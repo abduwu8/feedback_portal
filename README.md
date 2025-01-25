@@ -1,6 +1,6 @@
 # MERN Stack Application
 
-A full-stack web application with user authentication built using the MERN stack.
+A full-stack feedback portal application.
 
 ## Tech Stack
 
