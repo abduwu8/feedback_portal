@@ -1,7 +1,7 @@
 MERN Stack Feedback Portal
 
 
-##Backend:
+*Backend:
 
 Node.js & Express.js: Lightweight, scalable server framework for efficient API development.
 MongoDB with Mongoose: NoSQL database for flexible data storage and schema validation.
@@ -9,7 +9,7 @@ JWT Authentication: Secure, stateless user authentication with token-based sessi
 bcryptjs: Advanced password hashing for secure credential storage.
 dotenv: Secure management of environment variables (API keys, credentials, etc.).
 
-##Frontend:
+*Frontend:
 
 React.js: Dynamic, component-based UI for a seamless user experience.
 React Router DOM: Client-side routing for smooth navigation in a single-page application (SPA).
