@@ -51,3 +51,24 @@ Scalable and Maintainable Architecture
 Modular Codebase: The application is built with a modular and organized structure, making it easy to scale, maintain, and add new features in the future.
 
 API-Driven Development: The backend is designed as a RESTful API, enabling easy integration with other frontend frameworks or third-party services.
+
+Screenshots attached:
+
+Client View -
+![image](https://github.com/user-attachments/assets/90930767-30ee-47f6-b885-b5e626245e2a)
+
+![image](https://github.com/user-attachments/assets/6798cf61-2249-4772-b099-eaef962e4482)
+
+
+Admin View -
+![image](https://github.com/user-attachments/assets/bdedca26-64ad-43af-a67f-db7ad65930ab)
+
+![image](https://github.com/user-attachments/assets/85b61bd7-2633-49ea-b3b3-f98d9c36cf5f)
+
+The admin can export feedbacks in pdf, excel and csv formats.
+
+![image](https://github.com/user-attachments/assets/e0981a98-f0ab-4ee9-960f-96ce342d598f)
+
+
+
+
